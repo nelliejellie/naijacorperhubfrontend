@@ -1,0 +1,156 @@
+body{
+	background-color: #f2eaea;
+}
+header{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	background-color: #f2eaea;
+	color: #bfafaf;
+	margin: 0px;
+
+}
+ul{
+	list-style-type:none;
+	height: 50px;
+	line-height: 50px;
+	background-color: #6d9e66;
+	margin: 0;
+	padding: 0;
+}
+header a{
+	text-decoration-line: none;
+	color:  #282020;
+}
+li {
+	float: left;
+}
+li a{
+	display: block;
+	text-decoration: none;
+	height: 50px;
+	padding: 0px 10px 0px 10px;
+	cursor: pointer;
+}
+#login{
+	position: absolute;
+	right: 30px;
+	padding: 0px 10px 0px 10px;
+
+}
+#register{
+	position: absolute;
+	right: 100px;
+	padding: 0px 10px 0px 10px;
+
+}
+li a:hover{
+	background-color: #e2d3d3;
+}
+ul li a{	
+	color: #282020;
+	font-size: 20px;	
+}
+ul li:hover{
+	background-color: #e2d3d3;
+}
+ul li ul{
+	display: none;
+	width: 100px;
+	height: 100px;
+	background-color: #e2d3d3;
+}
+ul li:hover ul{
+	display: block;	
+	height: 100px;
+}
+
+ul li ul li a:hover{
+	background-color: #49d32a;
+	margin: 0;
+	
+}
+
+#smallscreens{
+	display: none;
+}
+#bigscreens{
+	
+}
+#submit{
+	cursor: pointer;
+	background-color: #618ba0;
+	border: none;
+}
+#submit:hover{
+	padding: 5px;
+}
+
+footer{
+	background-color:#6d9e66;
+	margin: 10px;
+	height: 50px; 
+	margin-left: 0;
+	margin-right: 0;
+}
+
+h2{
+	text-align: left;
+	background-color: #6d9e66;
+	position: absolute;
+}
+
+#recent-uploads-header{	
+	width: 100%;
+	top: 300px;
+
+}
+footer h2{
+	line-height: 50px;
+}
+img{
+	width: 350px;
+	height: 350px;
+	padding: 10px;
+	margin: 10px;
+}
+#recent-uploads-images{
+	position: absolute;
+	width: 100%;
+	top: 400px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+	
+}
+figcaption{
+	text-align: center;
+}
+#Most-Viewed-header{	
+	width: 100%;
+	top: 900px;
+
+}
+#Most-Viewed-images{
+	position: absolute;
+	width: 100%;
+	top: 1000px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+	
+}
+
+
+
+
+	
+
+	
+
+
+

@@ -1,0 +1,27 @@
+#smallscreens{
+	display: block;
+	
+}
+#bigscreens{
+	display: none;
+}
+
+li{
+	width: 210px; 
+}
+a{
+	text-align: left;
+}
+#ul-smallscreen1,#ul-smallscreen2,#ul-smallscreen3{
+	display: none;
+}
+
+
+img{
+	width: 1fr 1fr 1fr;
+	height: 100px;
+	padding: 10px;
+	margin: 10px;
+}
+
+
