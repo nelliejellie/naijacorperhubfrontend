@@ -86,6 +86,13 @@ ul li ul li a:hover{
 	padding: 5px;
 }
 
+footer{
+	background-color:#6d9e66;
+	margin: 10px;
+	height: 50px; 
+	margin-left: 0;
+	margin-right: 0;
+}
 
 h2{
 	text-align: left;
@@ -99,24 +106,16 @@ h2{
 	z-index: -10;
 
 }
-
+footer h2{
+	line-height: 50px;
+}
 img{
 	width: 350px;
 	height: 350px;
 	padding: 10px;
 	margin: 10px;
 }
-#recent-uploads-images{
-	position: absolute;
-	width: 100%;
-	top: 400px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: space-between;
-	
-}
+
 figcaption{
 	text-align: center;
 }
@@ -136,7 +135,7 @@ figcaption{
 	align-content: space-between;
 	
 }
-#product-1,#product-2,#product-3{
+#product-1,#product-2,#product-3,#product-4,#product-5,#product-6,#product-7{
 	width: 100%;
 	background-color: #f2eaea;
 }
@@ -144,12 +143,18 @@ figcaption{
 	position: absolute;
 	top: 150px;
 }
+p{
+	text-align: center;
+	font-size: 30px;
+}
 #footer{
 	height: 100px;
 	width: 100%;
 	position: absolute;
 	background-color: #6d9e66;
 }
+
+
 
 
 	

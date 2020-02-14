@@ -1,6 +1,8 @@
 $(function(){
-	var re = $('p').html();
-	var date = new Date();
-	//$('h2').html(date);
-	
+	$('#smallscreens').click(function(){
+		$('#ul-smallscreen1').css({'display':'block'})
+	})
+	$('#smallscreens').dblclick(function(){
+		$('#ul-smallscreen1').css({'display':'none'})
+	})
 });
