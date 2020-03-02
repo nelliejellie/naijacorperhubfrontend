@@ -92,12 +92,18 @@ h2{
 	background-color: #6d9e66;
 	position: absolute;
 }
-
-#recent-uploads-header{	
+#recent-uploads{	
+	position: absolute;
 	width: 100%;
-	top: 300px;
+	top: 600px;
 	z-index: -10;
 
+}
+#recent-uploads-header{	
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	z-index: -10;
 }
 
 img{
@@ -109,26 +115,32 @@ img{
 #recent-uploads-images{
 	position: absolute;
 	width: 100%;
-	top: 400px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: space-between;
+	top: 100px;
 	
 }
 figcaption{
 	text-align: center;
 }
+#Most-Viewed{	
+	position: absolute;
+	width: 100%;
+	top: 1100px;
+
+}
 #Most-Viewed-header{	
 	width: 100%;
-	top: 900px;
+	top:100px ;
 
 }
 #Most-Viewed-images{
 	position: absolute;
 	width: 100%;
-	top: 1000px;
+	top:200px ;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -142,19 +154,58 @@ figcaption{
 }
 #product-div{
 	position: absolute;
-	top: 150px;
+	top: 250px;
 }
 #footer{
 	height: 100px;
+	line-height: 100px;
 	width: 100%;
 	position: absolute;
 	background-color: #6d9e66;
+	top: 2000px;
 }
-
-
-	
-
-	
-
-
+h1{
+	text-align: center;
+	position: absolute;
+	top: 200px;
+	width: 100%;
+}
+#form-container{
+	position: absolute;
+	width: 40%;
+	left: 20%;
+	top: 20%;
+	z-index: -1;
+}
+#carouselExampleIndicators{
+	position: absolute;
+	width: 98%;
+	margin: 0;
+	top: 90px;
+	left: 0;
+	z-index: -1;
+}	
+#carousel-image{
+	height: 500px;
+}
+#search-con{
+	width: 100%;
+	position: absolute;
+	top: 150px;
+}
+#Searchbutton{
+	position: absolute;
+	right: 0;
+}
+#apartmentinput{
+	position: absolute;
+	right: 80px;
+}
+#locationinput{
+	position: absolute;
+	right: 300px;
+}
+i{
+	color: #fff;
+}
 

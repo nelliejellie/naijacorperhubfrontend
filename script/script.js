@@ -5,4 +5,7 @@ $(function(){
 	$('#smallscreens').dblclick(function(){
 		$('#ul-smallscreen1').css({'display':'none'})
 	})
+	$('.carousel').carousel({
+  		interval: 4000
+	})
 });
