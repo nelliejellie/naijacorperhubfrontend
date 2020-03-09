@@ -22,7 +22,7 @@
 		</li>
 		<li>
 			<a href="#" id="login">Login</a>
-			<a href="#" id="register">Register</a>
+			<a href="#" id="register">Sign up</a>
 		</li>
 	</ul>
 	<!-- navbar -- mobile phones -->
@@ -34,14 +34,46 @@
 				</li>
 				<li>
 					<a href="#" id="ll">Login</a>
-					<a href="#" id="ll">Register</a>
+					<a href="#" id="ll">Sign up</a>
 				</li>
 			</ul>
 		</li>
 	</ul>
 	</div>
-	<div>
-		<ul id="product-div">
+	<div id="Search-con" style="z-index: -1;">
+		<form class="form-inline ">
+			 <div class="form-group mx-sm-3 mb-2">
+				<label for="inputPassword2" class="sr-only"></label>
+				<input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="apartments" name="name" value="">
+			</div>
+			    <div class="form-group">
+					<label for="exampleFormControlSelect1"></label>
+					<select class="form-control" id="exampleFormControlSelect1" name="state">
+						<option value="k" selected>select state</option>
+						{% for key,value in state_choices.items %}
+							<option value="{{ key }}">{{ value }}</option>
+						{% endfor %}
+					</select>
+				</div>
+				<div style="margin-left: 5px;">
+			    <button type="submit" class="btn btn-primary mb-2" >Search</button>
+			    </div>
+		</form>
+	</div>
+	<div id="Search-con">
+		<form class="form-inline" >
+			  <div class="input-group mb-2 mr-sm-2" id="apartmentinput">
+			    <div class="input-group-prepend">
+			    </div>
+			    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="apartment" >
+			  </div>
+
+			  <button type="submit" class="btn btn-primary mb-2" id="Searchbutton">Search</button>
+		</form>
+	</div>
+	<h1>Apartments</h1>
+	<div id="product-div">
+		<ul >
 			<li id="product-1"><a>2 bedroom flat</a></li>
 		</ul>
 	</div>

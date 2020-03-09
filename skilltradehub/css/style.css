@@ -46,6 +46,7 @@ li a{
 }
 li a:hover{
 	background-color: #e2d3d3;
+	width: 270px;
 }
 ul li a{	
 	color: #282020;
@@ -152,6 +153,9 @@ p{
 	width: 100%;
 	position: absolute;
 	background-color: #6d9e66;
+}
+h1{
+	text-align: center;
 }
 
 
