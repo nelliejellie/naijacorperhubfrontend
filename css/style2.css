@@ -43,5 +43,16 @@ img{
 	top: 20%;
 	z-index: -1;
 }
-
+#skill-hub{	
+	position: absolute;
+	width: 100%;
+	top: 2000px;
+}
+#footer{
+	height: 100px;
+	width: 100%;
+	position: absolute;
+	background-color: #6d9e66;
+	top: 2900px;
+}
 
