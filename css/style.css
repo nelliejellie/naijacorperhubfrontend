@@ -88,7 +88,7 @@ ul li ul li a:hover{
 
 
 h2{
-	text-align: left;
+	text-align: center;
 	background-color: #6d9e66;
 	position: absolute;
 }
@@ -162,7 +162,7 @@ figcaption{
 	width: 100%;
 	position: absolute;
 	background-color: #6d9e66;
-	top: 2000px;
+	top: 2500px;
 }
 h1{
 	text-align: center;
@@ -208,4 +208,8 @@ h1{
 i{
 	color: #fff;
 }
-
+#skill-hub{	
+	position: absolute;
+	width: 100%;
+	top: 1700px;
+}

@@ -44,10 +44,6 @@ li a{
 	padding: 0px 10px 0px 10px;
 
 }
-li a:hover{
-	background-color: #e2d3d3;
-	width: 270px;
-}
 ul li a{	
 	color: #282020;
 	font-size: 20px;	
@@ -136,13 +132,19 @@ figcaption{
 	align-content: space-between;
 	
 }
-#product-1,#product-2,#product-3,#product-4,#product-5,#product-6,#product-7{
+#product{
 	width: 100%;
 	background-color: #f2eaea;
+
 }
 #product-div{
 	position: absolute;
 	top: 150px;
+	background-color: #f2eaea;
+}
+#product:hover{
+    background-color: #e2d3d3;
+    width: 270px;
 }
 p{
 	text-align: center;
