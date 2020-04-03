@@ -159,7 +159,9 @@ p{
 h1{
 	text-align: center;
 }
-
+#carouselExampleIndicators{
+	display: none;
+}
 
 
 
